@@ -112,7 +112,7 @@
 		},
 		{
 			"offsets": [
-				0,
+				-1,
 				2
 			],
 			"loop": true,
@@ -189,7 +189,7 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/bfCar",
+	"image": "characters/bfCarDARK",
 	"position": [
 		0,
 		350

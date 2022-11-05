@@ -2,7 +2,7 @@
 	"animations": [
 		{
 			"offsets": [
-				-4,
+				-5,
 				0
 			],
 			"loop": false,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				-32,
-				6
+				9,
+				11
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-52,
-				-34
+				17,
+				-39
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				-69,
-				40
+				-38,
+				95
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				-22,
-				-3
+				-9,
+				-11
 			],
 			"loop": false,
 			"fps": 24,
@@ -57,8 +57,8 @@
 		},
 		{
 			"offsets": [
-				-22,
-				8
+				-4,
+				17
 			],
 			"loop": false,
 			"fps": 24,
@@ -68,8 +68,8 @@
 		},
 		{
 			"offsets": [
-				-57,
-				-41
+				21,
+				-34
 			],
 			"loop": false,
 			"fps": 24,
@@ -79,8 +79,8 @@
 		},
 		{
 			"offsets": [
-				-72,
-				42
+				-6,
+				297
 			],
 			"loop": false,
 			"fps": 24,
@@ -90,8 +90,8 @@
 		},
 		{
 			"offsets": [
-				-18,
-				5
+				-14,
+				-1
 			],
 			"loop": false,
 			"fps": 24,
@@ -101,8 +101,8 @@
 		},
 		{
 			"offsets": [
-				-65,
-				26
+				-77,
+				21
 			],
 			"loop": false,
 			"fps": 24,
@@ -112,8 +112,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				2
+				-3,
+				1
 			],
 			"loop": true,
 			"fps": 24,
@@ -123,8 +123,8 @@
 		},
 		{
 			"offsets": [
-				37,
-				11
+				-13,
+				-20
 			],
 			"loop": false,
 			"fps": 24,
@@ -134,8 +134,8 @@
 		},
 		{
 			"offsets": [
-				37,
-				5
+				-12,
+				-20
 			],
 			"loop": true,
 			"fps": 24,
@@ -145,8 +145,8 @@
 		},
 		{
 			"offsets": [
-				37,
-				69
+				-12,
+				46
 			],
 			"loop": false,
 			"fps": 24,
@@ -155,46 +155,57 @@
 			"name": "BF Dead confirm"
 		},
 		{
-			"offsets": [
-				-10,
-				-16
-			],
 			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "Dodge down",
 			"fps": 24,
-			"anim": "dodge",
-			"indices": [],
-			"name": "boyfriend dodge"
+			"name": "BF NOTE DOWN DODGE",
+			"indices": []
 		},
 		{
-			"offsets": [
-				294,
-				267
-			],
 			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "Dodge left",
 			"fps": 24,
-			"anim": "attack",
-			"indices": [],
-			"name": "boyfriend attack"
+			"name": "BF NOTE LEFT DODGE",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-40,
-				-40
-			],
 			"loop": false,
+			"offsets": [
+				-27,
+				48
+			],
+			"anim": "Dodge up",
 			"fps": 24,
-			"anim": "pre-attack",
-			"indices": [],
-			"name": "bf pre attack"
+			"name": "BF NOTE UP DODGE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				7
+			],
+			"anim": "Dodge right",
+			"fps": 24,
+			"name": "BF NOTE RIGHT DODGE",
+			"indices": []
 		}
 	],
-	"no_antialiasing": false,
-	"image": "characters/bfCar",
+	"no_antialiasing": true,
+	"image": "characters/BF_Troll",
 	"position": [
 		0,
 		350
 	],
-	"healthicon": "bf",
+	"healthicon": "troll",
 	"flip_x": true,
 	"healthbar_colors": [
 		228,
